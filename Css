@@ -1,0 +1,64 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #6B73FF, #000DFF);
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 3em;
+    animation: fadeIn 2s ease forwards;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 30px;
+    color: #FFD700;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    font-size: 0.9em;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1.5s forwards;
+    animation-delay: 0.5s;
+}
+
+/* Section Spacing */
+section {
+    margin-bottom: 40px;
+}
